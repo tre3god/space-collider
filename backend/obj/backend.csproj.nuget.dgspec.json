@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SieGodwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj": {}
+    "C:\\Users\\godwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SieGodwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj": {
+    "C:\\Users\\godwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SieGodwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj",
+        "projectUniqueName": "C:\\Users\\godwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj",
         "projectName": "backend",
-        "projectPath": "C:\\Users\\SieGodwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj",
-        "packagesPath": "C:\\Users\\SieGodwin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SieGodwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\obj\\",
+        "projectPath": "C:\\Users\\godwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\backend.csproj",
+        "packagesPath": "C:\\Users\\godwin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\godwin\\Desktop\\dotnet\\space-collider-react-dotnet-app\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\SieGodwin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\godwin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net10.0": {
@@ -49,6 +47,30 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
@@ -70,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
